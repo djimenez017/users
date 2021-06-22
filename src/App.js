@@ -22,6 +22,7 @@ const Container = styled.div`
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 10;
 
     .color {
       background: var(--accent);
@@ -45,6 +46,7 @@ function App() {
           <h1>USERS</h1>
         </div>
       </div>
+
       <div className="content-body">
         <Cards />
       </div>
